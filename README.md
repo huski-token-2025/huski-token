@@ -10,7 +10,7 @@ Huski Token is a **fun, chaotic, and experimental** meme token ecosystem built f
 
 ### 🧊 Stake Share
 
-Stake your \$HUSKI tokens to earn share points and gain access to exclusive game modes, lotteries, and multipliers.
+Stake your \$HUSKI tokens to earn and gain access to exclusive game modes, lotteries, and multipliers.
 
 * Stake to earn.
 * Unstake with penalties (because real degens diamond-hand).
@@ -48,8 +48,7 @@ Built-in chat for maximum degen coordination.
 
 * Node.js >= 18
 * Yarn or npm
-* Wallet with testnet or mainnet \$HUSKI
-* MetaMask or compatible Web3 wallet
+* Wallet with testnet \$HUSKI
 
 ### Installation
 
