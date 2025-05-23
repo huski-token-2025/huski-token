@@ -24,7 +24,7 @@ A playful mine-to-earn experience.
 * RNG-based outcomes: dig up more \$HUSKI, or come back empty-pawed.
 * Risk vs reward mechanics: mine deeper, earn bigger… or lose it all.
 
-### 🎰 Lottery
+### 🎰 Lottery(not yet)
 
 On-chain lottery system.
 
