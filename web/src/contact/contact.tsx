@@ -119,7 +119,7 @@ export const ADDRESS_HUSKI = {
   },
 
 
-  bankId: '0x4c0ffe27bbcd59f0ad2026078fe6b1ee3e33ed8cf3830dc9906b52ccabd818d3',
+  bankId: '0x0bf956b0c810e15a9618447f775117ff504d9387c7e0f14f5aff2361f46842bb',
 
   get structTypeTicket() {
     return `${common.mineCA}::mine::Ticket<${this.coinType1}>`;
