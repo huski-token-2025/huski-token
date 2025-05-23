@@ -1,0 +1,6 @@
+{
+  "name": "Huski",
+  "short_name": "Huski",
+  "display": "standalone",
+  "start_url": "./?utm_source=homescreen"
+}

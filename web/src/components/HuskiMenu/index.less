@@ -1,0 +1,75 @@
+//@menu-item-height: 80px;
+
+.ant-menu-submenu {
+  width: calc(20% - 10px);
+  text-align: center;
+  //border: 1px solid #e8e8e8;
+}
+
+.ant-menu-submenu-title {
+  //height: 80px;
+  height: 100%;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: SourceHanSansCN-Regular;
+  font-stretch: normal;
+  line-height: 80px;
+  //line-height: 100%;
+}
+.ant-menu-item {
+  height: 100%;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: SourceHanSansCN-Regular;
+  font-stretch: normal;
+  line-height: 80px;
+}
+.ant-menu-submenu-popup {
+  width: 200px !important;
+}
+.ant-menu-submenu-popup .ant-menu-item {
+  margin: 10px;
+  color: #000 !important;
+  background: #dcd4d3 !important;
+  //border: solid 1px #000000 !important;
+}
+.ant-menu-submenu-selected .ant-menu-submenu-title {
+  color: #000 !important;
+}
+.ant-menu-submenu-selected,
+.ant-menu-item-selected:not(.ant-menu-submenu .ant-menu-item) {
+  height: calc(100% + 11px);
+  margin-top: -11px !important;
+  margin-left: -11px !important;
+  color: #000 !important;
+  //background-image: url('@/assets/image/short-btn.png') !important;
+  background-image: url('https://huski-img.pages.dev/short-btn.png') !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+}
+.ant-menu-item-selected::after,
+.ant-menu-submenu-selected::after {
+  border-bottom: none !important;
+}
+.ant-menu-item:hover::after,
+.ant-menu-submenu:hover::after {
+  border-bottom: none !important;
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-submenu-popup
+  .ant-menu-vertical
+  .ant-menu-item,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-submenu-popup
+  .ant-menu-vertical
+  .ant-menu-submenu-title {
+  //width: 100%;
+  //height: 40px;
+  //overflow: hidden;
+  //line-height: 40px;
+  //text-overflow: ellipsis;
+  //padding-inline: 0;
+  //margin-inline: 0;
+  //margin-block: 0;
+}

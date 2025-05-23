@@ -1,0 +1,44 @@
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+.div-box {
+  position: relative;
+  width: 408px;
+  height: 495px;
+  overflow: hidden;
+  color: #030303;
+  font-family: BodoniBT-Bold;
+  border: solid 4px #000000;
+  transition: transform 1s ease;
+}
+
+.div-box-hovered {
+  animation: bounce 1s;
+}
+
+.overlay {
+  width: 70px;
+  height: 50px;
+  background-image: url('https://huski-img.pages.dev/grayPlay.png');
+  background-size: 100% 100%;
+  transition: background-image 0.3s ease-in-out;
+  pointer-events: none;
+}
+.overlay.hovered {
+  background-image: url('https://huski-img.pages.dev/redPlay.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}

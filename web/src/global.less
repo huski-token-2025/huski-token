@@ -1,0 +1,76 @@
+@font-face {
+  font-weight: normal;
+  font-family: 'BodoniBT-Bold';
+  font-style: normal;
+  src: url('../src/assets/fonts/BODONI BD BT BOLD.TTF') format('truetype');
+}
+@font-face {
+  font-weight: normal;
+  font-family: 'SourceHanSansCN-Heavy';
+  font-style: normal;
+  src: url('../src/assets/fonts/SourceHanSansCN-Heavy.otf') format('truetype');
+}
+@font-face {
+  font-weight: normal;
+  font-family: 'SourceHanSansCN-Medium';
+  font-style: normal;
+  src: url('../src/assets/fonts/SourceHanSansCN-Medium.otf') format('truetype');
+}
+@font-face {
+  font-weight: normal;
+  font-family: 'SourceHanSansCN-Regular';
+  font-style: normal;
+  src: url('../src/assets/fonts/SourceHanSansCN-Regular.otf') format('truetype');
+}
+html,
+body,
+#root {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: BodoniBT-Bold, sans-serif;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
