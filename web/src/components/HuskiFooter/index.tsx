@@ -26,8 +26,8 @@ const HuskiFooter: React.FC = () => {
     <div
       style={{
         width: '100%',
-        height: '160px',
-        border: 'solid 4px #868281',
+        height: '0px',
+        border: 'solid 0px #868281',
         backgroundImage: `url(${globalImage.FooterBgc})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: '100% 100%',
@@ -44,7 +44,7 @@ const HuskiFooter: React.FC = () => {
           alignItems: 'center',
         }}
       >
-        <a
+        {/* <a
           href="https://x.com/Huski2024"
           target="_blank"
           rel="noopener noreferrer"
@@ -79,7 +79,7 @@ const HuskiFooter: React.FC = () => {
             style={iconStyle}
           />
           <span>Youtube</span>
-        </a>
+        </a> */}
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ const HuskiCopyright: React.FC = () => {
           color: '#c8c8c8',
         }}
       >
-        copyright @ Huski 2024
+        copyright @ Huski 2025
       </p>
     </div>
   );

@@ -30,6 +30,10 @@ const spanStyle: React.CSSProperties = {
   fontSize: '18px',
   marginLeft: '10px',
 };
+const spanStyle1: React.CSSProperties = {
+  fontFamily: 'SourceHanSansCN-Heavy',
+  fontSize: '18px',
+};
 
 const Mine: React.FC = () => {
   const wallet = useWallet();
@@ -461,14 +465,14 @@ const Mine: React.FC = () => {
           </div>
         </Menu.Item>
       }
-      {selectedOption !== 'Blub' &&
+      {/* {selectedOption !== 'Blub' &&
         <Menu.Item key="Blub">
           <div style={divMenuItemStyle}>
             <div style={{width: '50px', height: '50px', backgroundImage: `url(${globalImage.BlubLogo})`, backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat'}}></div>
             <span style={spanStyle}>{bankHouseCutBlub}%</span>
           </div>
         </Menu.Item>
-      }
+      } */}
     </Menu>
   );
 
@@ -807,7 +811,7 @@ const Mine: React.FC = () => {
                     <Dropdown overlay={menu} visible={isDropdownVisible} onVisibleChange={setDropdownVisible} trigger={['click']}>
                       <Button onClick={toggleDropdown} style={{width: '150px', height: '60px', background: 'transparent', color: '#000', fontSize: '18px', border: 'solid 3px #000000', borderRadius: '0', display: 'flex', alignItems: 'center'}}>
                         <div style={{width: '50px', height: '50px', backgroundImage: `url(${selectedOption === 'Huski' ? globalImage.IconImage : (selectedOption === 'Sui' ? globalImage.SuiLogo : globalImage.BlubLogo)})`, backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%',}}></div>
-                        <span style={spanStyle}>{selectedOption === 'Huski' ? bankHouseCutHuski : (selectedOption === 'Sui' ? bankHouseCutSui : bankHouseCutBlub)}%</span>
+                        <span style={spanStyle1}>{selectedOption === 'Huski' ? bankHouseCutHuski : (selectedOption === 'Sui' ? bankHouseCutSui : bankHouseCutBlub)}%</span>
                         <CaretDownOutlined style={{fontSize: '18px'}}/>
                       </Button>
                     </Dropdown>
@@ -1029,7 +1033,7 @@ const Mine: React.FC = () => {
                           }}
                           onClick={handlePlayx1}
                         >
-                          Play
+                          <span style={{marginTop: '4px'}}>Play</span>
                         </Button>
                         <Button
                           style={{
@@ -1051,8 +1055,8 @@ const Mine: React.FC = () => {
                           }}
                           onClick={handlePlayx10}
                         >
-                          <span>Play x10</span>
-                          <span>(Quick Mode)</span>
+                          <span style={{marginTop: '-10px'}}>Play x10</span>
+                          <span style={{marginTop: '-10px'}}>(Quick Mode)</span>
                         </Button>
                       </div>
                       <div
@@ -1115,8 +1119,8 @@ const Mine: React.FC = () => {
                           }}
                           onClick={handleRedeem}
                         >
-                          <span>Redeem All</span>
-                          <span>Rewards</span>
+                          <span style={{marginTop: '2px'}}>Redeem All</span>
+                          <span style={{marginTop: '-10px'}}>Rewards</span>
                         </Button>
                       </div>
                     </div>

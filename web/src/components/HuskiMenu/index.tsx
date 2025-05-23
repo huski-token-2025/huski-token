@@ -86,15 +86,15 @@ const HuskiMenu: React.FC<MenuProps> = ({ handleMenuClick }) => {
     //   handleMenuClick(e.key);
     // }
     if (e.key === 'Hop') {
-      window.open('https://hop.ag/swap/SUI-HUSKI', '_blank');
+      window.open('https://hop.ag/swap/SUI-USDC', '_blank');
     } else if (e.key === 'Turbos') {
       window.open(
-        'https://app.turbos.finance/#/trade?input=0x2::sui::SUI&output=0xda1644f58a955833a15abae24f8cc65b5bd8152ce013fde8be0a6a3dcf51fe36::token::TOKEN',
+        'https://app.turbos.finance/#/trade?input=0x2::sui::SUI&output=0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC',
         '_blank',
       );
     } else if (e.key === 'Cetus') {
       window.open(
-        'https://app.cetus.zone/swap?from=0x2::sui::SUI&to=0xda1644f58a955833a15abae24f8cc65b5bd8152ce013fde8be0a6a3dcf51fe36::token::TOKEN',
+        'https://app.cetus.zone/swap?from=0x2::sui::SUI&to=0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC',
         '_blank',
       );
     } else if (e.key === 'HuskiBook') {

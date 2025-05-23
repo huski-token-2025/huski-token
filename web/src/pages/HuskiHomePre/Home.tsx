@@ -379,7 +379,7 @@ const Home: React.FC = () => {
               fontSize: '48px',
             }}
           >
-            Q2 2024:{' '}
+            Q2 2025:{' '}
           </span>
           <span
             style={{
@@ -433,7 +433,7 @@ const Home: React.FC = () => {
               fontSize: '48px',
             }}
           >
-            Q3 2024:{' '}
+            Q3 2025:{' '}
           </span>
           <span
             style={{
@@ -487,7 +487,7 @@ const Home: React.FC = () => {
               fontSize: '48px',
             }}
           >
-            Q4 2024:{' '}
+            Q4 2025:{' '}
           </span>
           <span
             style={{
@@ -569,7 +569,7 @@ const Home: React.FC = () => {
                 marginRight: '25px',
               }}
             ></div>
-            <span>June 1st UTC-0 2024</span>
+            {/* <span>June 1st UTC-0 2024</span> */}
           </div>
           <Button
             style={{
