@@ -1,0 +1,11 @@
+[package]
+name = "huski"
+version = "0.0.0"
+edition = "2024.beta"
+# published-at = "0x17ec1f80de57305555995edef247afcd4c0f8859bc42d7a696e64822710c34ef"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.35.1", override = true }
+
+[addresses]
+huski = "0x0"

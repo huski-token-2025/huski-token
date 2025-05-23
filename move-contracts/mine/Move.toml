@@ -1,0 +1,11 @@
+[package]
+name = "game"
+version = "0.0.0"
+edition = "2024.beta"
+# published-at = "0x0cc7b956afb227f8bdb50b09221d0619607f9bdb6bfdd09e6630f03bb56624f7"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.35.1", override = true }
+
+[addresses]
+game = "0x0"
