@@ -1,7 +1,3 @@
-Here's a well-structured `README.md` for your meme degen project **Huski Token**, written in English and formatted according to hackathon and open source project standards:
-
----
-
 # 🐶 Huski Token: The Ultimate Meme Degen Playground
 
 Huski Token is a **fun, chaotic, and experimental** meme token ecosystem built for **degens, by degens**. Packed with wild features like **stake shares**, a **mine-to-earn game**, a **lottery**, and a **degen chatroom**, Huski is a social playground where the only rule is to have fun — and maybe make it to Valhalla.
