@@ -26,7 +26,7 @@ A playful mine-to-earn experience.
 
 ### 🎰 Lottery
 
-Weekly on-chain lottery system.
+On-chain lottery system.
 
 * Buy tickets with \$HUSKI.
 * Jackpot sourced from penalties, mine tax, and staker cuts.
